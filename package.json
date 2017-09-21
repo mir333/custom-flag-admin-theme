@@ -1,0 +1,36 @@
+{
+	"name": "admin-theme",
+	"version": "1.0.0",
+	"main": "package.json",
+	"keywords": [
+		"liferay-theme"
+	],
+	"liferayTheme": {
+		"baseTheme": "styled",
+		"screenshot": "",
+		"rubySass": false,
+		"templateLanguage": "ftl",
+		"version": "7.0"
+	},
+	"devDependencies": {
+		"basename": "^0.1.2",
+		"cheerio": "^0.20.0",
+		"del": "^2.2.2",
+		"gulp": "^3.9.1",
+		"gulp-cheerio": "^0.6.2",
+		"gulp-load-plugins": "^1.0.0-rc.1",
+		"gulp-rename": "^1.2.2",
+		"gulp-svgmin": "^1.2.0",
+		"gulp-svgstore": "^5.0.4",
+		"liferay-theme-deps-7.0": "*",
+		"liferay-theme-tasks": "*",
+		"lodash": "^3.9.3",
+		"require-dir": "^0.3.0",
+		"run-sequence": "^1.1.1",
+		"string-sub": "0.0.1",
+		"underscore.string": "^3.2.2"
+	},
+	"publishConfig": {
+		"tag": "7_0_x"
+	}
+}
