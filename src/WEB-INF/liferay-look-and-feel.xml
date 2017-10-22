@@ -3,9 +3,9 @@
 
 <look-and-feel>
 	<compatibility>
-		<version>7.0.1+</version>
+		<version>7.0.0+</version>
 	</compatibility>
-	<theme id="admin" name="Admin">
+	<theme id="my-admin" name="My Admin">
 		<template-extension>ftl</template-extension>
 		<control-panel-theme>true</control-panel-theme>
 		<page-theme>false</page-theme>
